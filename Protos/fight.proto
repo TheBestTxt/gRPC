@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "TheBestTxt.SocketAbout.RPC.gRPCService";
+
+import "google/protobuf/empty.proto";
+package Fight;
+
+// The greeting service definition.
+service Fight {
+	rpc Attack(google.protobuf.Empty) returns (AttackResponse);
+
+	rpc AttackTogetoher(stream AttackTogetoherRequest) returns (stream AttackTogetoherResponse);
+}
+
+message AttackResponse{
+	string Message = 1;
+}
+
+message AttackTogetoherRequest{
+	string Method = 1;
+}
+
+message AttackTogetoherResponse{
+	string Method = 1;
+}

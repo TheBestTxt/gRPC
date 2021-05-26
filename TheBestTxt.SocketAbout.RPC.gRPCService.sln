@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBestTxt.SocketAbout.RPC.gRPCClient", "TheBestTxt.SocketAbout.RPC.gRPCClient\TheBestTxt.SocketAbout.RPC.gRPCClient.csproj", "{7A2001B7-49FF-4701-B81A-817E6B0B618C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBestTxt.SocketAbout.RPC.gRPCService", "TheBestTxt.SocketAbout.RPC.gRPCService\TheBestTxt.SocketAbout.RPC.gRPCService.csproj", "{43F52560-3B70-4859-9C99-6F5F0D7F669D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2001B7-49FF-4701-B81A-817E6B0B618C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2001B7-49FF-4701-B81A-817E6B0B618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2001B7-49FF-4701-B81A-817E6B0B618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2001B7-49FF-4701-B81A-817E6B0B618C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F52560-3B70-4859-9C99-6F5F0D7F669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F52560-3B70-4859-9C99-6F5F0D7F669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F52560-3B70-4859-9C99-6F5F0D7F669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F52560-3B70-4859-9C99-6F5F0D7F669D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99F1FA36-B829-459C-8714-5E87D38CBA27}
+	EndGlobalSection
+EndGlobal
